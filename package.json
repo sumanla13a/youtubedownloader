@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^10.0.0"
+    "bcrypt": "^0.8.5",
+    "bluebird": "^3.4.6",
+    "hapi": "^10.0.0",
+    "path": "^0.12.7"
   }
 }
