@@ -56,7 +56,6 @@ var Controller = {
 		var youlink = req.payload.youlink;
 		var command = 'youtube-dl -F ' + youlink;
 		exec(command, function(err, res, pon) {
-			console.log('fuck');
 			console.log(err);
 			console.log('err done');
 			console.log(res);
